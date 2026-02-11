@@ -1,0 +1,12 @@
+{
+  "name": "easyauth",
+  "version": "0.1.0",
+  "description": "Drop-in auth broker between applications and multiple auth providers",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --watch --env-file=.env src/index.js",
+    "test": "node --test"
+  }
+}
